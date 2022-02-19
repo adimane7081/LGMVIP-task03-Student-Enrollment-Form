@@ -1,0 +1,63 @@
+body {
+    background-image: url('feb17-21-618737654.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    /* fail safe */
+    background-color: rgb(213, 230, 229);
+
+    /* Radial gradient background - csss3 */
+     background: radial-gradient(rgba(230, 152, 8, 0.5), rgba(81, 203, 252, 0.5), rgba(203, 235, 90, 0.3));
+     text-align: center;
+}
+#nameDiv {
+    margin-top: 100px;
+}
+.input {
+    font-size: 33px;
+    color: black;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font: size 44px;;
+    margin: 18px;
+}
+#entry {
+    width: 185px;
+    height: 38px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive, sans-serif;
+    background-color: rgb(4, 22, 10);
+    color: rgb(241, 239, 239);
+    box-shadow: 0 2px 2px 0 rgba(8, 8, 8, 0.5);
+    margin-top: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 60px auto;
+    background-color: radial-gradient(rgba(97, 93, 99, 0.5), rgba(12, 245, 70, 0.5), rgba(22, 141, 253, 0.3));
+}
+table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+th {
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive, sans-serif;
+    color: black;
+}
+td {
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive, sans-serif;
+    color: black;
+    
+}
